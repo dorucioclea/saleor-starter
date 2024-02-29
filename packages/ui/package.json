@@ -1,0 +1,27 @@
+{
+  "name": "@saleor/apps-ui",
+  "version": "1.2.2",
+  "scripts": {
+    "lint:fix": "eslint --fix ."
+  },
+  "dependencies": {
+    "eslint": "8.46.0",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@saleor/app-sdk": "link:../../node_modules/@saleor/app-sdk",
+    "@saleor/macaw-ui": "1.0.0-pre.7",
+    "@types/react": "18.2.5",
+    "@types/react-dom": "18.2.5",
+    "eslint-config-saleor": "workspace:*",
+    "next": "13.4.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "main": "index.ts",
+  "peerDependencies": {
+    "next": "13.4.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}

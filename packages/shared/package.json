@@ -1,0 +1,42 @@
+{
+  "name": "@saleor/apps-shared",
+  "version": "1.9.3",
+  "scripts": {
+    "lint:fix": "eslint --fix .",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@urql/exchange-auth": "^2.1.4",
+    "eslint": "8.46.0",
+    "pino": "^8.14.1",
+    "pino-pretty": "^10.0.0",
+    "semver": "^7.5.1"
+  },
+  "devDependencies": {
+    "@saleor/app-sdk": "link:../../node_modules/@saleor/app-sdk",
+    "@saleor/macaw-ui": "1.0.0-pre.7",
+    "@types/react": "18.2.5",
+    "@types/react-dom": "18.2.5",
+    "@types/semver": "^7.5.0",
+    "eslint-config-saleor": "workspace:*",
+    "next": "13.4.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.1.6",
+    "urql": "^4.0.4",
+    "vite": "4.4.8",
+    "vitest": "0.34.1",
+    "zod": "3.21.4"
+  },
+  "main": "index.ts",
+  "peerDependencies": {
+    "@saleor/app-sdk": "link:../../node_modules/@saleor/app-sdk",
+    "next": "13.4.8",
+    "pino": "^8.14.1",
+    "pino-pretty": "^10.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "urql": "^4.0.4",
+    "zod": "3.21.4"
+  }
+}

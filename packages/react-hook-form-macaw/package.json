@@ -1,0 +1,41 @@
+{
+  "name": "@saleor/react-hook-form-macaw",
+  "version": "0.2.6",
+  "scripts": {
+    "build-storybook": "storybook build",
+    "lint:fix": "eslint --fix .",
+    "start-storybook-build": "pnpm dlx http-server ./storybook-static",
+    "storybook": "storybook dev -p 6006"
+  },
+  "dependencies": {
+    "eslint": "8.46.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@saleor/macaw-ui": "1.0.0-pre.7",
+    "@storybook/addon-actions": "^7.0.12",
+    "@storybook/addon-essentials": "^7.0.12",
+    "@storybook/addon-interactions": "^7.0.12",
+    "@storybook/addon-links": "^7.0.12",
+    "@storybook/blocks": "^7.0.12",
+    "@storybook/react": "^7.0.12",
+    "@storybook/react-vite": "^7.0.12",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/react": "18.2.5",
+    "@types/react-dom": "18.2.5",
+    "@vanilla-extract/vite-plugin": "^3.8.1",
+    "eslint-config-saleor": "workspace:*",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.9",
+    "storybook": "^7.0.12",
+    "typescript": "5.1.6",
+    "vite": "4.4.8",
+    "webpack": "^5.82.1"
+  },
+  "main": "index.ts",
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
