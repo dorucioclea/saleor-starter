@@ -34,7 +34,7 @@
     "dot-object": "^2.1.4",
     "graphql": "16.7.1",
     "graphql-tag": "^2.12.6",
-    "jose": "^4.11.2",
+    "jose": "^5.2.2",
     "jsdom": "^20.0.3",
     "next": "13.4.8",
     "nuvo-react": "^1.22.1",

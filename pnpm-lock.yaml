@@ -760,8 +760,8 @@ importers:
         specifier: ^2.12.6
         version: 2.12.6(graphql@16.7.1)
       jose:
-        specifier: ^4.11.2
-        version: 4.14.4
+        specifier: ^5.2.2
+        version: 5.2.2
       jsdom:
         specifier: ^20.0.3
         version: 20.0.3
@@ -2033,8 +2033,8 @@ importers:
         specifier: ^2.12.6
         version: 2.12.6(graphql@16.7.1)
       jose:
-        specifier: ^4.11.2
-        version: 4.14.4
+        specifier: ^5.2.2
+        version: 5.2.2
       next:
         specifier: 13.4.8
         version: 13.4.8(@babel/core@7.23.9)(@opentelemetry/api@node_modules+@opentelemetry+api)(react-dom@18.2.0)(react@18.2.0)
@@ -19591,7 +19591,6 @@ packages:
 
   /jose@5.2.2:
     resolution: {integrity: sha512-/WByRr4jDcsKlvMd1dRJnPfS1GVO3WuKyaurJ/vvXcOaUQO8rnNObCQMlv/5uCceVQIq5Q4WLF44ohsdiTohdg==}
-    dev: true
 
   /jotai@2.4.2(@types/react@18.2.5)(react@18.2.0):
     resolution: {integrity: sha512-90jXVOd9h6gi5JXk558M+wnJfaaVN2WegcNOCfiFbWboNaDl6DkRgiY/K1oeqTfYJmq8yM7XPsL99LAvcOPqhw==}
