@@ -440,8 +440,8 @@ importers:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
       react-error-boundary:
-        specifier: 4.0.10
-        version: 4.0.10(react@18.2.0)
+        specifier: 4.0.13
+        version: 4.0.13(react@18.2.0)
       react-hook-form:
         specifier: ^7.43.9
         version: 7.44.3(react@18.2.0)
@@ -1894,8 +1894,8 @@ importers:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
       react-error-boundary:
-        specifier: 4.0.10
-        version: 4.0.10(react@18.2.0)
+        specifier: 4.0.13
+        version: 4.0.13(react@18.2.0)
       react-hook-form:
         specifier: ^7.43.9
         version: 7.44.3(react@18.2.0)
@@ -6781,6 +6781,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.11
+    dev: true
 
   /@babel/runtime@7.23.9:
     resolution: {integrity: sha512-0CX6F+BI2s9dkUqr08KFrAIZgNFj75rdBU/DjCyYLIaV/quFjkk6T+EJ2LkZHyZTbEV4L5p97mNkUsHl2wLFAw==}
@@ -22128,12 +22129,12 @@ packages:
       react: 18.2.0
     dev: true
 
-  /react-error-boundary@4.0.10(react@18.2.0):
-    resolution: {integrity: sha512-pvVKdi77j2OoPHo+p3rorgE43OjDWiqFkaqkJz8sJKK6uf/u8xtzuaVfj5qJ2JnDLIgF1De3zY5AJDijp+LVPA==}
+  /react-error-boundary@4.0.13(react@18.2.0):
+    resolution: {integrity: sha512-b6PwbdSv8XeOSYvjt8LpgpKrZ0yGdtZokYwkwV2wlcZbxgopHX/hgPl5VgpnoVOWd868n1hktM8Qm4b+02MiLQ==}
     peerDependencies:
       react: '>=16.13.1'
     dependencies:
-      '@babel/runtime': 7.22.6
+      '@babel/runtime': 7.23.9
       react: 18.2.0
     dev: false
 
