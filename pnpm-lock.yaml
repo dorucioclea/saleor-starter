@@ -1490,8 +1490,8 @@ importers:
         specifier: ^16.3.1
         version: 16.3.1
       fast-xml-parser:
-        specifier: ^4.0.15
-        version: 4.0.15
+        specifier: ^4.3.6
+        version: 4.3.6
       graphql:
         specifier: 16.7.1
         version: 16.7.1
@@ -17409,18 +17409,21 @@ packages:
 
   /fast-xml-parser@4.0.10:
     resolution: {integrity: sha512-mYMMIk7Ho1QOiedyvafdyPamn1Vlda+5n95lcn0g79UiCQoLQ2xfPQ8m3pcxBMpVaftYXtoIE2wrNTjmLQnnkg==}
-    dependencies:
-      strnum: 1.0.5
-    dev: false
-
-  /fast-xml-parser@4.0.15:
-    resolution: {integrity: sha512-bF4/E33/K/EZDHV23IJpSK2SU7rZTaSkDH5G85nXX8SKlQ9qBpWQhyPpm2nlTBewDJgtpd6+1x4TNpKmocmthQ==}
+    hasBin: true
     dependencies:
       strnum: 1.0.5
     dev: false
 
   /fast-xml-parser@4.1.2:
     resolution: {integrity: sha512-CDYeykkle1LiA/uqQyNwYpFbyF6Axec6YapmpUP+/RHWIoR1zKjocdvNaTsxCxZzQ6v9MLXaSYm9Qq0thv0DHg==}
+    hasBin: true
+    dependencies:
+      strnum: 1.0.5
+    dev: false
+
+  /fast-xml-parser@4.3.6:
+    resolution: {integrity: sha512-M2SovcRxD4+vC493Uc2GZVcZaj66CCJhWurC4viynVSTvrpErCShNcDz1lAho6n9REQKvL/ll4A4/fw6Y9z8nw==}
+    hasBin: true
     dependencies:
       strnum: 1.0.5
     dev: false
