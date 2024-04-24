@@ -45,7 +45,7 @@
     "dotenv": "^16.3.1",
     "graphql": "16.7.1",
     "graphql-tag": "^2.12.6",
-    "jotai": "^2.4.2",
+    "jotai": "^2.8.0",
     "jsdom": "^20.0.3",
     "modern-errors": "^6.0.0",
     "modern-errors-serialize": "^5.0.0",
