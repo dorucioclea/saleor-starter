@@ -202,11 +202,11 @@ importers:
         specifier: ^20.0.3
         version: 20.0.3
       modern-errors:
-        specifier: 7.0.0
-        version: 7.0.0
+        specifier: 7.0.1
+        version: 7.0.1
       modern-errors-serialize:
         specifier: 6.0.0
-        version: 6.0.0(modern-errors@7.0.0)
+        version: 6.0.0(modern-errors@7.0.1)
       neverthrow:
         specifier: 6.1.0
         version: 6.1.0
@@ -2232,11 +2232,11 @@ importers:
         specifier: ^20.0.3
         version: 20.0.3
       modern-errors:
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^7.0.1
+        version: 7.0.1
       modern-errors-serialize:
         specifier: ^5.0.0
-        version: 5.0.0(modern-errors@6.0.0)
+        version: 5.0.0(modern-errors@7.0.1)
       next:
         specifier: 13.4.8
         version: 13.4.8(@babel/core@7.24.6)(@opentelemetry/api@node_modules+@opentelemetry+api)(react-dom@18.2.0)(react@18.2.0)
@@ -2431,11 +2431,11 @@ importers:
         specifier: ^20.0.3
         version: 20.0.3
       modern-errors:
-        specifier: ^6.0.0
-        version: 6.0.0
+        specifier: ^7.0.1
+        version: 7.0.1
       modern-errors-serialize:
         specifier: ^5.0.0
-        version: 5.0.0(modern-errors@6.0.0)
+        version: 5.0.0(modern-errors@7.0.1)
       next:
         specifier: 13.4.8
         version: 13.4.8(@babel/core@7.24.6)(@opentelemetry/api@node_modules+@opentelemetry+api)(react-dom@18.2.0)(react@18.2.0)
@@ -16614,11 +16614,6 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /error-class-utils@3.0.0:
-    resolution: {integrity: sha512-L26cyYkaV6nzbUbmDRNSXAZfcuQy4cvEDvD+WoRF6c6nIEEydfgn7grd+idf2xLVYaTHnn7yYQjaz+Dnx+N1lQ==}
-    engines: {node: '>=16.17.0'}
-    dev: false
-
   /error-class-utils@4.0.0:
     resolution: {integrity: sha512-przSMatQ20oCvuiKYOX9hHDsXMA2AhFrGRCiR7RwoixDzu7ChsWx41XshLBpGKc+qgC2FOSvOX69FNFaBYArhg==}
     engines: {node: '>=18.18.0'}
@@ -16629,13 +16624,6 @@ packages:
     engines: {node: '>=18.18.0'}
     dependencies:
       error-class-utils: 4.0.0
-    dev: false
-
-  /error-custom-class@9.0.0:
-    resolution: {integrity: sha512-cfXOxbwRQpXLUSecZctO/GPtKm9auTd2v1eY4CsclMgRkse/h5w59V1u1p7LdStVnw/SCbROcsd5zLenauvlRw==}
-    engines: {node: '>=16.17.0'}
-    dependencies:
-      error-class-utils: 3.0.0
     dev: false
 
   /error-ex@1.3.2:
@@ -20208,16 +20196,6 @@ packages:
     resolution: {integrity: sha512-cCi6g3/Zr1iqQi6ySbseM1Xvooa98N0w31jzUYrXPX2xqObmFGHJ0tQ5u74H3mVh7wLouTseZyYIq39g8cNp1w==}
     dev: true
 
-  /merge-error-cause@4.0.1:
-    resolution: {integrity: sha512-fTPQshSNjhq6BGvoe5F6xezzcWTn98rog8Ra0gJ0jqgwZXizPNRyg/pjhWX5+pXYanecSPUXa17uEM/RwZfKXw==}
-    engines: {node: '>=16.17.0'}
-    dependencies:
-      normalize-exception: 3.0.0
-      set-error-class: 2.0.0
-      set-error-props: 5.0.0
-      wrap-error-message: 2.0.1
-    dev: false
-
   /merge-error-cause@5.0.0:
     resolution: {integrity: sha512-px3J5V6QJnq5j3WC8gQJPOlCnm3IMz6I4IBU7A/D8713Fk8ptKt1UD1tvEksrsivA3vI39lAr2b/H7A3n9MqKA==}
     engines: {node: '>=18.18.0'}
@@ -20761,7 +20739,7 @@ packages:
   /modern-ahocorasick@1.0.1:
     resolution: {integrity: sha512-yoe+JbhTClckZ67b2itRtistFKf8yPYelHLc7e5xAwtNAXxM6wJTUx2C7QeVSJFDzKT7bCIFyBVybPMKvmB9AA==}
 
-  /modern-errors-serialize@5.0.0(modern-errors@6.0.0):
+  /modern-errors-serialize@5.0.0(modern-errors@7.0.1):
     resolution: {integrity: sha512-vKtplFTL+nooOabeOsX2ur9tSgXCzvKOY15WAx1bwq9Cz6yETipqKilZX+bGXFrTRptUOotuACRWhQ+46wWguQ==}
     engines: {node: '>=16.17.0'}
     peerDependencies:
@@ -20769,10 +20747,10 @@ packages:
     dependencies:
       error-serializer: 6.0.1
       is-plain-obj: 4.1.0
-      modern-errors: 6.0.0
+      modern-errors: 7.0.1
     dev: false
 
-  /modern-errors-serialize@6.0.0(modern-errors@7.0.0):
+  /modern-errors-serialize@6.0.0(modern-errors@7.0.1):
     resolution: {integrity: sha512-oqfY6NeiZtFcZW4VIoL8fu3xoP/YMswEsUe6cMKZmj6s8M1f8pTVqC5uhQN9sKmTRxDcA6E00V2Cb3NY8b72SQ==}
     engines: {node: '>=18.18.0'}
     peerDependencies:
@@ -20780,26 +20758,11 @@ packages:
     dependencies:
       error-serializer: 7.0.0
       is-plain-obj: 4.1.0
-      modern-errors: 7.0.0
+      modern-errors: 7.0.1
     dev: false
 
-  /modern-errors@6.0.0:
-    resolution: {integrity: sha512-IgtbY9ITQfbtZUdoIiqOwReV+Z2iL82OtwWTNV9cusKT/SvNivIAXKyGjEGcoCpLc+32UZp0DuqXViIDAG44Zg==}
-    engines: {node: '>=16.17.0'}
-    dependencies:
-      error-class-utils: 3.0.0
-      error-custom-class: 9.0.0
-      filter-obj: 5.1.0
-      is-plain-obj: 4.1.0
-      merge-error-cause: 4.0.1
-      normalize-exception: 3.0.0
-      set-error-message: 2.0.1
-      set-error-props: 5.0.0
-      set-error-stack: 2.0.0
-    dev: false
-
-  /modern-errors@7.0.0:
-    resolution: {integrity: sha512-4H55sVGQe0JxbBIH9ea9QUkY3BDSpxauyWYXB5W4LCeYEvjEScYxnoHp9cFHxeCvUuf1a1lqJILo/H2kRV37og==}
+  /modern-errors@7.0.1:
+    resolution: {integrity: sha512-UaWtjvt1LWLTmQq9vBcjVzVyaBS8PyN3YYF9Vzdf7dgaB9ySFBWbIH5nglEfLr1VVF7XrBrHrdp+Tnw7oITfTA==}
     engines: {node: '>=18.18.0'}
     dependencies:
       error-class-utils: 4.0.0
@@ -20810,7 +20773,7 @@ packages:
       normalize-exception: 3.0.0
       set-error-message: 3.0.0
       set-error-props: 6.0.0
-      set-error-stack: 2.0.0
+      set-error-stack: 3.0.0
     dev: false
 
   /module-details-from-path@1.0.3:
@@ -22764,13 +22727,6 @@ packages:
       resolve: 1.22.8
     dev: true
 
-  /redefine-property@2.0.0:
-    resolution: {integrity: sha512-7UfHFiHkePd9mb/vYMPYuAPjAa/77xGQ1S6laaWNQkz5gVJAtYpoWYQ5iFL/ZcDxXZVqnD7N4aFFnIn4T36Sbw==}
-    engines: {node: '>=16.17.0'}
-    dependencies:
-      is-plain-obj: 4.1.0
-    dev: false
-
   /redefine-property@3.0.0:
     resolution: {integrity: sha512-ccnADJaJkclGGzRuc8kaNBHmoyOwW+Da2DyPQdiccMdlMyvPvCtIa6kN0sKz+JiW43dQEGFiCSNjyObi372ptA==}
     engines: {node: '>=18.18.0'}
@@ -23335,27 +23291,11 @@ packages:
       normalize-exception: 3.0.0
     dev: false
 
-  /set-error-message@2.0.1:
-    resolution: {integrity: sha512-s/eeP0f4ed1S3fl0KbxZoy5Pbeg5D6Nbple9nut4VPwHTvEIk5r7vKq0FwjNjszdUPdlTrs4GJCOkWUqWeTeWg==}
-    engines: {node: '>=16.17.0'}
-    dependencies:
-      normalize-exception: 3.0.0
-    dev: false
-
   /set-error-message@3.0.0:
     resolution: {integrity: sha512-CaNAe+/oXwT2XqGtK1plJOZYBi+cpwliSiL8yqO00c3Hvp3w4Tjo95ndv/bEJUM/7sWSw+ctF6J5GbiqF98lFQ==}
     engines: {node: '>=18.18.0'}
     dependencies:
       normalize-exception: 3.0.0
-    dev: false
-
-  /set-error-props@5.0.0:
-    resolution: {integrity: sha512-AKeNtJ7f9HUzB9Vw9KWiKKe6NR5b8hJoVVnXGN+ZkEj0jTfM0ggL+I2O/14zfJn9lgUqGgMgyjjRhldp7eTpeA==}
-    engines: {node: '>=16.17.0'}
-    dependencies:
-      is-error-instance: 2.0.0
-      is-plain-obj: 4.1.0
-      redefine-property: 2.0.0
     dev: false
 
   /set-error-props@6.0.0:
@@ -23367,9 +23307,9 @@ packages:
       redefine-property: 3.0.0
     dev: false
 
-  /set-error-stack@2.0.0:
-    resolution: {integrity: sha512-mABWr7mmaY1EVBMXWo32t6byRkKclJ3gipglE2+XGBZxDEk0+zVumRfWyAK3s/EB/TbbUm1Gp0H8VvqlFkMa+g==}
-    engines: {node: '>=16.17.0'}
+  /set-error-stack@3.0.0:
+    resolution: {integrity: sha512-jCcA0qrIqYWOct9WlC3xcEE9QaTWKEM9eztxr+fV2pa7ZGfFGiNh4RzqfJI8ps+oDDGtU8uvGPYxARyhI9t17Q==}
+    engines: {node: '>=18.18.0'}
     dependencies:
       normalize-exception: 3.0.0
     dev: false
@@ -25526,14 +25466,6 @@ packages:
       ansi-styles: 4.3.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
-
-  /wrap-error-message@2.0.1:
-    resolution: {integrity: sha512-LrBMsWJ85HKjLs5ABjhZeW7mWpwsAoV16iqmhEXUf4Y2GvdLwrqK4FPGNNoAi7a20wy4wHU2ci61wQfcOgz/Kw==}
-    engines: {node: '>=16.17.0'}
-    dependencies:
-      normalize-exception: 3.0.0
-      set-error-message: 2.0.1
-    dev: false
 
   /wrap-error-message@3.0.0:
     resolution: {integrity: sha512-QoePG1A6p9t6kY6RjOucIJvItmJfViuDs9C84TifNr8zN2oFmeky8SQ3OkUAY7vfefPPB7TUtKbiXjsV29EhLw==}
