@@ -39,7 +39,7 @@
     "@trpc/server": "10.45.2",
     "@urql/exchange-auth": "^2.1.4",
     "@web-std/file": "^3.0.2",
-    "eslint": "8.46.0",
+    "eslint": "9.5.0",
     "graphql": "16.7.1",
     "graphql-tag": "^2.12.6",
     "microinvoice": "^1.0.6",

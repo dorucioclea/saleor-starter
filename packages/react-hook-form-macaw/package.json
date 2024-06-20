@@ -8,7 +8,7 @@
     "storybook": "storybook dev -p 6006"
   },
   "dependencies": {
-    "eslint": "8.46.0"
+    "eslint": "9.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.21.8",
