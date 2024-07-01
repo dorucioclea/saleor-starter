@@ -6,7 +6,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "eslint": "8.46.0",
+    "eslint": "9.6.0",
     "tslog": "4.9.2",
     "typescript": "5.1.6"
   },
