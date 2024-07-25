@@ -23,7 +23,7 @@
     "@storybook/testing-library": "^0.0.14-next.2",
     "@types/react": "18.2.5",
     "@types/react-dom": "18.2.5",
-    "@vanilla-extract/vite-plugin": "^3.8.1",
+    "@vanilla-extract/vite-plugin": "^4.0.13",
     "eslint-config-saleor": "workspace:*",
     "react": "18.2.0",
     "react-dom": "18.2.0",
