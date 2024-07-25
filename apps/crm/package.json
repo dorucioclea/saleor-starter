@@ -68,7 +68,7 @@
     "@types/mailchimp__mailchimp_marketing": "^3.0.7",
     "@types/react": "18.2.5",
     "@types/react-dom": "18.2.5",
-    "eslint": "8.46.0",
+    "eslint": "9.7.0",
     "eslint-config-saleor": "workspace:*",
     "node-mocks-http": "^1.14.1",
     "typescript": "5.1.6"
