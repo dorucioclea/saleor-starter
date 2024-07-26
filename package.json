@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@opentelemetry/api": "1.7.0",
-    "@opentelemetry/api-logs": "0.46.0",
+    "@opentelemetry/api-logs": "0.52.1",
     "@opentelemetry/core": "1.19.0",
     "@opentelemetry/exporter-logs-otlp-http": "0.46.0",
     "@opentelemetry/exporter-trace-otlp-http": "0.46.0",
