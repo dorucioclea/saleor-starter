@@ -15,8 +15,8 @@ importers:
         specifier: 1.7.0
         version: 1.7.0
       '@opentelemetry/api-logs':
-        specifier: 0.46.0
-        version: 0.46.0
+        specifier: 0.52.1
+        version: 0.52.1
       '@opentelemetry/core':
         specifier: 1.19.0
         version: 1.19.0(@opentelemetry/api@1.7.0)
@@ -37,7 +37,7 @@ importers:
         version: 1.18.1(@opentelemetry/api@1.7.0)
       '@opentelemetry/sdk-logs':
         specifier: 0.45.1
-        version: 0.45.1(@opentelemetry/api-logs@0.46.0)(@opentelemetry/api@1.7.0)
+        version: 0.45.1(@opentelemetry/api-logs@0.52.1)(@opentelemetry/api@1.7.0)
       '@opentelemetry/sdk-node':
         specifier: 0.45.1
         version: 0.45.1(@opentelemetry/api@1.7.0)
@@ -10151,6 +10151,13 @@ packages:
       '@opentelemetry/api': 1.7.0
     dev: false
 
+  /@opentelemetry/api-logs@0.52.1:
+    resolution: {integrity: sha512-qnSqB2DQ9TPP96dl8cDubDvrUyWc0/sK81xHTK8eSUspzDM3bsewX903qclQFvVhgStjRWdC5bLb3kQqMkfV5A==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@opentelemetry/api': 1.7.0
+    dev: false
+
   /@opentelemetry/api@1.7.0:
     resolution: {integrity: sha512-AdY5wvN0P2vXBi3b29hxZgSFvdhdxPB9+f0B6s//P9Q8nibRWeA3cHm8UmLpio9ABigkVHJ5NMPk+Mz8VCCyrw==}
     engines: {node: '>=8.0.0'}
@@ -10506,7 +10513,7 @@ packages:
       '@opentelemetry/resources': 1.18.1(@opentelemetry/api@1.7.0)
     dev: false
 
-  /@opentelemetry/sdk-logs@0.45.1(@opentelemetry/api-logs@0.46.0)(@opentelemetry/api@1.7.0):
+  /@opentelemetry/sdk-logs@0.45.1(@opentelemetry/api-logs@0.52.1)(@opentelemetry/api@1.7.0):
     resolution: {integrity: sha512-z0RRgW4LeKEKnhXS4F/HnqB6+7gsy63YK47F4XAJYHs4s1KKg8XnQ2RkbuL31i/a9nXkylttYtvsT50CGr487g==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -10514,7 +10521,7 @@ packages:
       '@opentelemetry/api-logs': '>=0.39.1'
     dependencies:
       '@opentelemetry/api': 1.7.0
-      '@opentelemetry/api-logs': 0.46.0
+      '@opentelemetry/api-logs': 0.52.1
       '@opentelemetry/core': 1.18.1(@opentelemetry/api@1.7.0)
       '@opentelemetry/resources': 1.18.1(@opentelemetry/api@1.7.0)
     dev: false
